@@ -88,7 +88,7 @@ export default function Hero() {
               boxShadow: 'var(--shadow-sm)',
             }}>
               <span style={{ width: 8, height: 8, borderRadius: '50%', background: '#22C55E', animation: 'badge-blink 1.8s ease-in-out infinite' }} />
-              Open to Internships
+              Available for Internships
               <Sparkles size={13} style={{ color: 'var(--accent)' }} />
             </div>
 
@@ -101,8 +101,8 @@ export default function Hero() {
             </h1>
 
             <p style={{ fontSize: '1.05rem', color: 'var(--text-secondary)', maxWidth: 480, lineHeight: 1.7, marginBottom: '40px' }}>
-              A 3rd year CSE student at ADGIPS, passionate about full-stack development and data science.
-              Building projects to learn and grow.
+              3rd year CSE student at ADGIPS, Delhi. I enjoy building web apps and
+              have recently gotten into data science. Still figuring a lot of things out, but that's kind of the point.
             </p>
 
             {/* CTA Buttons */}

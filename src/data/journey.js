@@ -1,0 +1,32 @@
+export const journey = [
+  {
+    type: 'education',
+    iconType: 'GraduationCap',
+    color: '#22C55E',
+    title: 'B.Tech Computer Science',
+    org: 'Dr. Akhilesh Das Gupta Institute of Professional Studies',
+    period: '2023 – Present',
+    desc: 'Currently in 3rd year, focusing on full-stack development and data science. Active member of the coding club and regularly participate in technical workshops and seminars.',
+    tags: ['Web Dev', 'DSA', 'Data Science'],
+  },
+  {
+    type: 'achievement',
+    iconType: 'Trophy',
+    color: '#3B82F6',
+    title: '100+ Problems Solved',
+    org: 'LeetCode & Coding Platforms',
+    period: '2024 – Present',
+    desc: 'Consistently practicing data structures and algorithms. Focused on arrays, strings, dynamic programming, and graph problems. Building strong problem-solving foundations.',
+    tags: ['Algorithms', 'Data Structures', 'Problem Solving'],
+  },
+  {
+    type: 'education',
+    iconType: 'GraduationCap',
+    color: '#22C55E',
+    title: 'Higher Secondary Education',
+    org: 'Kendriya Vidyalaya INA Colony',
+    period: '2021 – 2023',
+    desc: 'Completed higher secondary education with Physics, Chemistry, Maths and Computer Science as a core subjects. First exposure to programming with Python and basic web development.',
+    tags: ['Python', 'HTML/CSS', 'Mathematics'],
+  },
+];

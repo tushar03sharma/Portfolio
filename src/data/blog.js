@@ -1,0 +1,38 @@
+export const blogPosts = [
+  {
+    title: 'My Journey into Full-Stack Development',
+    excerpt: 'How I transitioned from learning basics to building full applications. The resources, mistakes, and lessons learned along the way.',
+    category: 'Learning',
+    readTime: '4 min read',
+    date: 'May 15, 2024',
+    image: 'https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=600',
+    accent: '#3B82F6',
+  },
+  {
+    title: "Getting Started with Machine Learning: A Student's Guide",
+    excerpt: 'A beginner-friendly guide to understanding ML concepts, choosing the right resources, and building your first models.',
+    category: 'Data Science',
+    readTime: '6 min read',
+    date: 'Apr 28, 2024',
+    image: 'https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=600',
+    accent: '#8B5CF6',
+  },
+  {
+    title: 'Building a Portfolio That Actually Gets You Noticed',
+    excerpt: 'Tips on creating a developer portfolio that stands out to recruiters and showcases your actual skills.',
+    category: 'Career',
+    readTime: '5 min read',
+    date: 'Mar 20, 2024',
+    image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=600',
+    accent: '#FF6B6B',
+  },
+  {
+    title: 'LeetCode 100: Lessons from Solving 100+ Problems',
+    excerpt: 'My experience with competitive programming, the patterns I discovered, and how it improved my problem-solving skills.',
+    category: 'DSA',
+    readTime: '5 min read',
+    date: 'Feb 12, 2024',
+    image: 'https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&cs=tinysrgb&w=600',
+    accent: '#F59E0B',
+  },
+];

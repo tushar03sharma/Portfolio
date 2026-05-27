@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 1,
-    title: 'Task Manager App',
+    title: 'MockMate App',
     desc: 'Built this during a phase where I was trying to understand how React state management actually works in a real app. Has basic auth, you can create/delete tasks, and they persist. Socket.io was added later to see if I could make it real-time — turns out it is not that straightforward.',
     image: 'https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=800',
     tags: ['React', 'Node.js', 'MongoDB', 'Socket.io'],

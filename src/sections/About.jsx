@@ -32,16 +32,16 @@ export default function About() {
           >
             <p className="section-label">About Me</p>
             <h2 className="display" style={{ fontSize: 'clamp(2rem, 3.5vw, 2.8rem)', marginBottom: '28px', color: 'var(--text-primary)' }}>
-              Learning by building,{' '}
-              <span style={{ color: 'var(--accent)', fontStyle: 'italic' }}>growing</span>{' '}
-              every day.
+              Still learning, but{' '}
+              <span style={{ color: 'var(--accent)', fontStyle: 'italic' }}>enjoying</span>{' '}
+              every step.
             </h2>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '28px' }}>
               {[
-                "I'm a 3rd year Computer Science student at Dr. Akhilesh Das Gupta Institute of Professional Studies, passionate about full-stack development and data science. I believe the best way to learn is by building real projects that solve actual problems.",
-                "My focus areas include building responsive web applications, understanding data patterns, and creating meaningful user experiences. I'm constantly exploring new technologies and pushing myself to write cleaner, more efficient code.",
-                "When I'm not coding, you'll find me solving algorithms on LeetCode, or diving deep into ML papers and tutorials.",
+                "I'm a 3rd year CSE student at ADGIPS, Delhi. I got into web development during my 2nd year and kind of haven't stopped since. I like building things — even when they break, which they do, a lot.",
+                "Right now I'm mostly working with React on the frontend and Node.js on the backend. I've also started exploring data science and machine learning, though I'll be honest — I'm still at the beginner-intermediate stage with that.",
+                "Outside of code, I'm usually on LeetCode trying to not get stuck on medium problems, or watching tutorials and convincing myself I'm being productive.",
               ].map((text, i) => (
                 <p key={i} style={{ color: 'var(--text-secondary)', lineHeight: 1.8, fontSize: '0.95rem' }}>{text}</p>
               ))}
@@ -49,7 +49,7 @@ export default function About() {
 
             {/* Tags */}
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-              {['Full Stack Dev', 'Data Science', 'Problem Solver', 'Lifelong Learner'].map(tag => (
+              {['React', 'Node.js', 'Python', 'Still Learning DSA 😅'].map(tag => (
                 <span key={tag} className="chip">{tag}</span>
               ))}
             </div>
@@ -97,9 +97,9 @@ export default function About() {
               }}
             >
               <p style={{ fontSize: '0.9rem', color: 'var(--text-secondary)', fontStyle: 'italic', lineHeight: 1.7, marginBottom: '10px' }}>
-                "The only way to learn a new programming language is by writing programs in it."
+                "First, solve the problem. Then, write the code."
               </p>
-              <p style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-muted)' }}>— Dennis Ritchie</p>
+              <p style={{ fontSize: '0.75rem', fontWeight: 600, color: 'var(--text-muted)' }}>— John Johnson</p>
             </div>
           </div>
         </div>

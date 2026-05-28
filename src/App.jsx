@@ -6,7 +6,6 @@ import Projects from './sections/Projects';
 import Stack from './sections/Stack';
 import Journey from './sections/Journey';
 import Learning from './sections/Learning';
-import Blog from './sections/Blog';
 import Fun from './sections/Fun';
 import Contact from './sections/Contact';
 
@@ -21,7 +20,6 @@ export default function App() {
         <Stack />
         <Journey />
         <Learning />
-        {/* <Blog /> */}
         <Fun />
         <Contact />
       </main>

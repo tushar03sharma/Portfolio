@@ -9,12 +9,12 @@ export const funItems = [
     extra: null,
   },
   {
-    label: 'Chai > Coffee',
+    label: 'Coffee ',
     emoji: '☕',
     iconType: 'Coffee',
     color: '#F59E0B',
     bg: 'rgba(245,158,11,0.1)',
-    detail: 'Strong chai, twice a day minimum. I know everyone says chai is their thing — but genuinely, a cup mid-debugging session hits different.',
+    detail: 'Cold Coffee, twice a day minimum. I know everyone says coffeee is their thing — but genuinely, a cup mid-debugging session hits different.',
     extra: null,
   },
   {

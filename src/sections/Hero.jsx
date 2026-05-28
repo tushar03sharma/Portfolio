@@ -192,7 +192,7 @@ export default function Hero() {
             }}>
               <Zap size={14} style={{ color: '#fff' }} />
               <div>
-                <p style={{ fontSize: '0.78rem', fontWeight: 700, color: '#fff' }}>10+</p>
+                <p style={{ fontSize: '0.78rem', fontWeight: 700, color: '#fff' }}>5+</p>
                 <p style={{ fontSize: '0.62rem', color: 'rgba(255,255,255,0.8)' }}>Projects Built</p>
               </div>
             </div>

@@ -18,7 +18,7 @@ export const projects = [
     desc: 'Started as a simple HTML/CSS site, then I rebuilt it in React. Spent way too long on the dark mode. Still tweaking things honestly.',
     image: 'ptushar.png',
     tags: ['React', 'Vite', 'Tailwind CSS'],
-    demo: 'https://portfolio-e2qs6okj7-tushar03sharmas-projects.vercel.app/',
+    demo: 'https://portfolio-e2qs6okj7-tushar03sharmas-projects.vercel.app/ ',
     github: 'https://github.com/tushar03sharma/Portfolio',
     featured: false,
     size: 'small',

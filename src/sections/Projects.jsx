@@ -8,11 +8,17 @@ function ProjectCard({ project, idx, isVisible }) {
   const [hovered, setHovered] = useState(false);
   const isLarge = project.size === 'large';
 
+  const handleCardClick = () => {
+    const url = project.demo !== '#' ? project.demo : project.github;
+    window.open(url, '_blank', 'noopener,noreferrer');
+  };
+
   return (
     <div
       className="glass"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      onClick={handleCardClick}
       style={{
         gridColumn: isLarge ? 'span 2' : 'span 1',
         display: 'flex',
@@ -93,6 +99,9 @@ function ProjectCard({ project, idx, isVisible }) {
         <div style={{ display: 'flex', gap: '10px' }}>
           <a
             href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={e => e.stopPropagation()}
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '5px',
               padding: '7px 14px', borderRadius: '100px',
@@ -107,6 +116,9 @@ function ProjectCard({ project, idx, isVisible }) {
           </a>
           <a
             href={project.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={e => e.stopPropagation()}
             style={{
               display: 'inline-flex', alignItems: 'center', gap: '5px',
               padding: '7px 14px', borderRadius: '100px',

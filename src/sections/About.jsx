@@ -3,7 +3,7 @@ import { useIntersectionObserver } from '../hooks/useIntersectionObserver';
 const stats = [
   { value: '5+',  label: 'Projects Built',  sub: 'Learning by building',         color: '#FF6B6B' },
   { value: '3+',   label: 'Tech Stack',       sub: 'Languages & frameworks',       color: '#3B82F6' },
-  { value: '3rd',  label: 'Year B.Tech',      sub: 'CSE at ADGIPS',               color: '#22C55E' },
+  { value: 'Final',  label: 'Year B.Tech',      sub: 'CSE at ADGIPS',               color: '#22C55E' },
   { value: '100+', label: 'Problems Solved',  sub: 'LeetCode & coding platforms',  color: '#F59E0B' },
 ];
 
@@ -39,7 +39,7 @@ export default function About() {
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '28px' }}>
               {[
-                "I'm a 3rd year CSE student at ADGIPS, Delhi. I got into web development during my 2nd year and kind of haven't stopped since. I like building things — even when they break, which they do, a lot.",
+                "I'm a final year CSE student at ADGIPS, Delhi. I got into web development during my 2nd year and kind of haven't stopped since. I like building things — even when they break, which they do, a lot.",
                 "Right now I'm mostly working with React on the frontend and Node.js on the backend. I've also started exploring data science and machine learning, though I'll be honest — I'm still at the beginner-intermediate stage with that.",
                 "Outside of code, I'm usually on LeetCode trying to not get stuck on medium problems, or watching tutorials and convincing myself I'm being productive.",
               ].map((text, i) => (
